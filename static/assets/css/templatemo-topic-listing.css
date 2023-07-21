@@ -562,12 +562,12 @@ strong {
 }
 
 .custom-block-image_w {
-  display: block;
+  display: inline;
   width: 20%;
-  height: 200px;
+  height: 20%;
   object-fit: cover;
   margin-top: 35px;
-  max-width: 20%;
+  max-width: 10%;
 }
 
 .custom-block .rounded-pill {

@@ -21,7 +21,9 @@
 
         <link href="{% static 'assets/css/bootstrap-icons.css' %} rel="stylesheet">
 
-        <link href="{% static 'assets/css/templatemo-topic-listing.css' %}" rel="stylesheet">      
+        <link href="{% static 'assets/css/templatemo-topic-listing.css' %}" rel="stylesheet">    
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">  
 <!--
 
 TemplateMo 590 topic listing
@@ -139,8 +141,8 @@ https://templatemo.com/tm-590-topic-listing
                                     <p class="mb-0">{{ weather }}</p>
                                     <!--<p class="mb-0">{{ temp }} °F</p> -->
                                     <div>
-                                        <span class="icon"><img src="{% static 'assets/images/hot.png' %}" class="custom-block-image_w img-fluid" alt=""></span>
-                                        <span class="text">{{ temp }} °F</span>
+                                        <span class="bi bi-thermometer" style="font-size: 22px;">{{ temp }} °F</span>
+                                        
                                     </div>
                                 </a>
                             </div>
