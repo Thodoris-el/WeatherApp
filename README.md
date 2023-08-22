@@ -1,4 +1,4 @@
-﻿# WeatherApp (not finished0
+﻿# WeatherApp (not finished)
 ## Description
 A simple weather app using django. It has a search box and it shows current and weekly weather.
 
