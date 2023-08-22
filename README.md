@@ -4,12 +4,9 @@ A simple weather app using django. It has a search box and it shows current and 
 
 ## Screenshots
 ![Screenshot1](https://files.fm/thumb_show.php?i=yz8t86hek)
-![Screenshot2](https://files.fm/f/yz8t86hek)
+![Screenshot2](https://files.fm/thumb_show.php?i=nuudntthw)
 
 Install Notes
 
-- mkdir the_weather_env
-- cd the_weather_env
-- pipenv install django
-- pipenv install requests
-- pipenv shell
+- Clone Current repository
+- docker-compose up -d --build
