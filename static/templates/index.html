@@ -108,7 +108,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                     <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Search city ..." aria-label="Search">
 
-                                    <button type="submit" class="form-control">Search</button>
+                                    <button id = "search" type="submit" class="form-control" >Search</button>
                                 </div>
                             </form>
                         </div>
@@ -785,3 +785,9 @@ https://templatemo.com/tm-590-topic-listing
 
     </body>
 </html>
+
+<script type="text/javascript">
+    document.getElementById("search").onclick = function () {
+        location.href = "http://127.0.0.1:8000/weather/search/" + document.getElementById("keyword").value + "/" ;
+    };
+</script>
